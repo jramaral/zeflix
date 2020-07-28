@@ -11,7 +11,7 @@ export default function Menu() {
       </a>
 
       <Button as="a" className="ButtonLink" href="/">
-        Novo videos
+        Novo vídeo
       </Button>
     </nav>
   );
