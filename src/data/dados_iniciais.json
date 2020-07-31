@@ -10,8 +10,8 @@
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Enjoy the second annual #TechSkillsDay!",
+          "url": "https://youtu.be/rO0ol6Inncc"
         },
         {
           "titulo": "SEO com React",
@@ -112,12 +112,12 @@
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Spark by Matt Colglazier | CGMeetup",
+          "url": "https://youtu.be/jHMPIgjSPvc"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "The Chase by Tomas Vergara | CGMeetup",
+          "url": "https://youtu.be/H3aNLrDOByo"
         },
         {
           "titulo": "A Chegada",
