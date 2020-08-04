@@ -2,15 +2,29 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Front End",
-      "descricao": "Uma categoria bacana",
+      "title": "Front End",
+      "description": "Uma categoria bacana",
       "cor": "#cbd1ff"
     },
     {
       "id": 2,
-      "nome": "Web ",
-      "descricao": "Uma categoria xpto",
+      "title": "Web ",
+      "description": "Uma categoria xpto",
       "cor": "#cb55ff"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 2,
+      "titulo": "LIFE",
+      "url": "https://www.youtube.com/watch?v=cuA-xqBw4jE"
+    },
+    {
+      "id": 2,
+      "categoriaId":1,
+      "titulo": "LIFE",
+      "url": "https://www.youtube.com/watch?v=cuA-xqBw4jE"
     }
   ]
 }

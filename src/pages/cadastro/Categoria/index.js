@@ -4,31 +4,44 @@ import { Link } from "react-router-dom";
 import FormField from "./../../../components/FormField/index";
 import Button from "./../../../components/Button/index";
 
+//custom hooks
+function useForm(valoresIniciais) {
+    const [values, setValues] = useState(valoresIniciais);
+    function handleChange(infosDoEvento) {
+        setValue(
+            infosDoEvento.target.getAttribute("name"),
+            infosDoEvento.target.value
+        );
+    }
+    function setValue(chave, valor) {
+        //chave: nome, descricao, etc..
+        setValues({
+            ...values,
+            [chave]: valor,
+        });
+    }
+
+    function clearForm() {
+        setValues(valoresIniciais)
+    }
+
+    return {
+        values,
+        handleChange,
+        clearForm,
+    }
+}
+
 export default function CadastroCategoria() {
   const valoresIniciais = {
-    nome: "",
-    descricao: "",
+    title: "",
+    description: "",
     cor: "",
   };
 
+  const {handleChange, values, clearForm} = useForm(valoresIniciais)
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    //chave: nome, descricao, etc..
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute("name"),
-      infosDoEvento.target.value
-    );
-  }
-
   useEffect(() => {
     //o que eu quero que aconteca
     const URL = "http://localhost:8080/categorias";
@@ -47,7 +60,7 @@ export default function CadastroCategoria() {
         onSubmit={(infosDoEvento) => {
           infosDoEvento.preventDefault();
           setCategorias([...categorias, values]);
-          setValues(valoresIniciais);
+          clearForm();
         }}
       >
         <FormField
@@ -83,7 +96,7 @@ export default function CadastroCategoria() {
         {categorias.map((categoria, index) => {
           return (
             <li key={index}>
-              {categoria.nome} {categoria.cor}
+              {categoria.title} {categoria.cor}
             </li>
           );
         })}
