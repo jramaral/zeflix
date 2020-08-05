@@ -15,7 +15,8 @@ function getYouTubeId(youtubeURL) {
 
 export default function BannerMain({ videoTitle, videoDescription, url }) {
   const youTubeID = getYouTubeId(url);
-  const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+ // const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  const bgUrl = `http://i1.ytimg.com/vi/${youTubeID}/hqdefault.jpg`;
   console.log(bgUrl);
 
   return (

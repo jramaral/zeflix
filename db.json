@@ -2,29 +2,113 @@
   "categorias": [
     {
       "id": 1,
-      "title": "Front End",
-      "description": "Uma categoria bacana",
-      "cor": "#cbd1ff"
+      "title": "Thundarr",
+      "description": "A Terra renasce como \"Nova Terra\"",
+      "cor": "#DFC87B"
     },
     {
       "id": 2,
-      "title": "Web ",
-      "description": "Uma categoria xpto",
-      "cor": "#cb55ff"
+      "title": "Jonny Quest ",
+      "description": "As aventuras de Jonny Quest",
+      "cor": "#99191B"
+    },
+    {
+      "id": 3,
+      "title": "Recruta Zero ",
+      "description": "O recruta mais sacana do exército",
+      "cor": "#59671A"
     }
   ],
   "videos": [
     {
       "id": 1,
-      "categoriaId": 2,
-      "titulo": "LIFE",
-      "url": "https://www.youtube.com/watch?v=cuA-xqBw4jE"
+      "categoriaId": 1,
+      "titulo": "Thundarr ",
+      "url": "https://youtu.be/xp9EqN9EY7Y?list=PL5xKXjKv1dMk2mIIaFRQ1MIEHah3eRukE"
     },
     {
       "id": 2,
-      "categoriaId":1,
-      "titulo": "LIFE",
-      "url": "https://www.youtube.com/watch?v=cuA-xqBw4jE"
+      "categoriaId": 1,
+      "titulo": "Thundaar O Bárbaro - O Ataque das Amazonas",
+      "url": "https://youtu.be/oHsuTbcPdbQ"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Thundarr o Bárbaro - O Perseguidor das Estrelas",
+      "url": "https://youtu.be/23EcNYBuQWw"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Thundarr o Bárbaro - No Portal do Tempo",
+      "url": "https://youtu.be/xAcA6HyVFfI"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Thundaar O Bárbaro - O Ataque das Amazonas",
+      "url": "https://youtu.be/oHsuTbcPdbQ"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "O Mistério dos Homens Lagartos P1",
+      "url": "https://youtu.be/pJK5977t9Uk"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "O Mistério dos Homens Lagartos P2",
+      "url": "https://youtu.be/kvI2AdjC2xg"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "O Mistério dos Homens Lagartos P3",
+      "url": "https://youtu.be/TEsIDmmGFNA"
+    },
+    {
+      "titulo": "De volta ao planeta dos macacos",
+      "url": "https://youtu.be/R3QtL_Au4qs",
+      "categoriaId": 2,
+      "id": 10
+    },
+    {
+      "titulo": "Recruta zero Episodio 1",
+      "url": "https://youtu.be/JjC8r2A8AVs",
+      "categoriaId": 3,
+      "id": 11
+    },
+    {
+      "titulo": "Recruta zero Episodio 2",
+      "url": "https://youtu.be/nP_OLxZti2A",
+      "categoriaId": 3,
+      "id": 12
+    },
+    {
+      "titulo": "Recruta Zero - Uma árvore é uma árvore",
+      "url": "https://youtu.be/YDtN_Te8skk?list=PLeyzgqOPlwgF8yI1yXTqS-cpUWR4UF-fI",
+      "categoriaId": 3,
+      "id": 13
+    },
+    {
+      "titulo": "Adeus Tatuagem",
+      "url": "https://youtu.be/lO9yB4_p9VA?list=PLeyzgqOPlwgF8yI1yXTqS-cpUWR4UF-fI",
+      "categoriaId": 3,
+      "id": 14
+    },
+    {
+      "titulo": "Apenas para oficiais",
+      "url": "https://youtu.be/1ql7oOBISl8?list=PLeyzgqOPlwgF8yI1yXTqS-cpUWR4UF-fI",
+      "categoriaId": 3,
+      "id": 15
+    },
+    {
+      "titulo": "Teste psicologico",
+      "url": "https://youtu.be/qBRToCCmSk8?list=PLeyzgqOPlwgF8yI1yXTqS-cpUWR4UF-fI",
+      "categoriaId": 3,
+      "id": 16
     }
   ]
 }
